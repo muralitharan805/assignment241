@@ -1,0 +1,98 @@
+/* Center the content with padding */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.campaign-list {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+}
+
+.mat-table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mat-header-cell {
+  font-weight: bold;
+  color: #fff;
+  background-color: #3f51b5;
+  padding: 12px;
+}
+
+.mat-cell {
+  padding: 12px;
+  color: #333;
+}
+
+.mat-row:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Button styling */
+button {
+  margin-right: 10px;
+}
+
+.mat-raised-button {
+  text-transform: uppercase;
+}
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Align form fields */
+mat-form-field {
+  width: 100%;
+}
+
+/* Schedule Section */
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Button Styling */
+button {
+  align-self: flex-start;
+}
+
+.add-btn {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.delete-btn {
+  color: #d32f2f;
+}
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}
